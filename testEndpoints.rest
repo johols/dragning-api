@@ -1,0 +1,32 @@
+
+###
+POST http://localhost:3301/talks
+Content-Type: application/json
+
+{
+    "title": "Connecting JavaScript to the Blockchain",
+    "imageurl": "https://images.confetticdn.com/images/scale/w_100,f_auto/event-9878/image-fc0d47ef-6cce-424b-a924-0479c5b6e905/lauren-photo.png",
+    "summary": "this is summary",
+    "body": "How do you get started with building blockchain apps in JavaScript? Meng will give you the tools you need to get started and help you avoid common mistakes. She'll also create and deploy a simple app on stage with the help of React.",
+    "speaker": "Meng Shang",
+    "about": "Self-taught developer that specializes in modern JavaScript, Blockchain and AI applications. Also a frequent contributor to open source repos in the Dash and Ethereum ecosystem. Led the team that won Distributed Health 2017 Blockchain Hackathon where they built a secure verified medical research data marketplace in under 24 hrs.",
+    "grade": "1",
+    "startnr": "11",
+    "comment": "...",
+    "buzzone": "String",
+    "buzztwo": "on time",
+    "buzzthree": "super"
+}
+
+###
+GET http://localhost:3301/talks
+Content-Type: application/json
+
+###
+GET  http://localhost:3301/talks/5bac7af900598524df39fb4c
+###
+
+###
+DELETE http://localhost:3301/talks/5bb06e2c00598524df39fb4e
+Content-Type: application/json
+
